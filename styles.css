@@ -1,0 +1,413 @@
+/* styles.css */
+
+/* Header styles */
+header {
+    background-color: black;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .restaurant-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+  }
+  
+  nav {
+    flex: 2;
+  }
+  
+  .navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar li {
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+  }
+  
+  .navbar a:hover {
+    text-decoration:underline blue;
+  }
+  
+  .sidebar {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .sidebar img {
+    width: 50px;
+    margin-left: 10px;
+  }
+  /* styles.css */
+
+.main-content {
+    background-image: url('pizza1\ 1.png');
+        position: relative;
+        width: 1757px;
+        height: 500px;
+        top: 111px;
+        left: -29px;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: white;
+        padding: 100px 0;
+      }
+      
+  
+  .banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .banner-content .slide-image {
+    width: 286px;
+    height: 13px;
+    position: absolute;
+    top: 400px;
+    left: 316px;
+  }
+  
+  
+.banner-content .heading {
+    width: 902px;
+    height: 215px;
+    position: absolute;
+    top: 240px;
+    left: 17px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .banner-content .text-content {
+    width: 599px;
+    height: 325px;
+    position: absolute;
+    top: 413px;
+    left: 116px;
+  }
+  
+  .banner-content .text {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us {
+    background-color: #000;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    position: relative; /* Add this */
+    height:auto;
+  }
+  
+  .container2 {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative; 
+    
+  }
+  .container2 h2 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 150px;
+  }
+  .text-content2,
+.image-content {
+  width: 631px;
+  height: 506px;
+  border-radius: 10px;
+}
+
+.text-content2 {
+  flex-grow: 1; /* Allow the text div to grow to fill remaining space */
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.image-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.image-content img {
+  width: 631px;
+  height: 306px;
+  
+}
+.menu-section {
+    background-color: #000;
+    color: #fff;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  
+  .container3 {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .menu-heading {
+    width: 474px;
+    height: 52px;
+    margin: 0 auto;
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+    line-height: 52px;
+    margin-bottom: 30px;
+  }
+  
+  .text-area {
+    width: 1315px;
+    height: 100px;
+    margin: 0 auto;
+    background-color:black;
+    color:white;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  
+  .menu-card {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-image img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .menu-content {
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  .menu-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .menu-description {
+    font-size: 16px;
+  }
+  .carousel-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .carousel-section {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+  }
+  
+  .carousel-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-image {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+  }
+  .main-image {
+    width: 100px;
+    height: 100px;
+  }
+  .dot-circle {
+    width: 20px;
+    height: 20px;
+    top:15px;
+    margin: 0 5px;
+  }
+  .gallery-section {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+  .gallery-heading {
+    font-size: 24px;
+    color:white;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .large-image {
+    flex-basis: 50%;
+    padding-right: 20px;
+  }
+  
+  .large-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-column {
+    flex-basis: 25%;
+    padding-left: 20px;
+    
+  }
+  
+  .image-row {
+    margin-bottom: 20px;
+  }
+  
+  .image-row img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+  }
+  .find-us-section {
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+    color: white;
+  }
+  
+  
+  .letter{
+    width: 20%;
+  }
+  
+  .find-us-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .left-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .location,
+.phone {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; 
+}
+
+  
+.map {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: -200px; 
+}
+
+.map img {
+  height: 100%;
+  width: auto;
+}
+.contact-section {
+  background-color: black;
+  padding: 50px 0;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.left-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.mail, .phone {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.mail img, .phone img {
+  margin-right: 10px;
+  max-width: 20px;
+  height: auto;
+}
+
+p {
+  margin: 0;
+  color: #fff;
+}
